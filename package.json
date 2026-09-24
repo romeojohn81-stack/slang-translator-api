@@ -1,0 +1,28 @@
+{
+  "name": "slang-translator-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romeojohn81-stack/slang-translator-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/romeojohn81-stack/slang-translator-api/issues"
+  },
+  "homepage": "https://github.com/romeojohn81-stack/slang-translator-api#readme",
+  "dependencies": {
+    "@google/genai": "^2.24.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.3",
+    "express": "^5.2.1"
+  }
+}
