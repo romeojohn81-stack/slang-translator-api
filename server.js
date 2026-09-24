@@ -1,4 +1,4 @@
-import express from 'express';
+﻿import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import { GoogleGenAI, Type, HarmCategory, HarmBlockThreshold } from '@google/genai';
@@ -62,7 +62,7 @@ app.post('/api/translate', async (req, res) => {
         ];
 
     const response = await ai.models.generateContent({
-      model: 'gemini-3.6-flash',
+      model: 'gemini-2.0-flash',
       contents: `User Settings: { is18Plus: ${is18Plus} }\n\nTask: ${targetInstruction}`,
       config: {
         systemInstruction: SYSTEM_INSTRUCTION,
